@@ -1,0 +1,83 @@
+#content {
+    text-align: center;
+    background-image: url(https://avante.biz/wp-content/uploads/Background-Images-For-Websites/Background-Images-For-Websites-001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+    background-color: pink;
+    margin: 20px;
+
+}
+
+#v {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.3s;
+    color: coral;
+}
+
+#v:hover {
+
+    color: blueviolet;
+    letter-spacing: 1.2cm;
+}
+
+#about {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    letter-spacing: 1px;
+    color: brown;
+
+}
+
+#india {
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    color: aliceblue;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+
+    font-size: 90px;
+}
+
+#about1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    letter-spacing: 1px;
+    color: yellow;
+
+}
+
+.contact {
+    background-color: rgb(211, 23, 23);
+    margin: 5px;
+    height: 50px;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#element {
+    transition: 0.5s;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(7, 116, 34);
+}
+
+#element:hover {
+    --elementcolor: rgb(255, 255, 255);
+    background-color: rgb(167, 252, 111);
+}
