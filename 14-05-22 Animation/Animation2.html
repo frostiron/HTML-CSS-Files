@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+#B1 {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+    animation: rotate 10s infinite ;
+}
+
+@keyframes rotate {
+    
+    0% {background-color: forestgreen;
+        top: 0px;
+        left: 0px;
+        transform: rotate(0deg);
+    }
+
+    20% {background-color: brown;
+        top: 250px;
+        left: 350px;
+        transform: rotate(180deg);
+    }
+
+    40% {background-color: black;
+        top: 0px;
+        left: 600px;
+        transform: rotate(0deg);
+    }
+
+    60% {background-color: blue;
+        top: 250px;
+        left: 900px;
+        transform: rotate(180deg);
+    }
+
+    80% {background-color: yellow;
+        top: 0px;
+        left: 1300px;
+        transform: rotate(0deg);
+    }
+
+    100% {background-color: deeppink;
+        top: 250px;
+        left: 1600px;
+        transform: rotate(180deg);
+    }
+
+
+}
+
+#B2 {
+    height: 150px;
+    width: 150px;
+    background-color: palevioletred;
+    position: relative;
+    animation: translate 10s infinite;
+    
+}
+
+@keyframes translate {
+    
+    0% {background-color: forestgreen;
+        top: 600px;
+        left: 0px;
+        transform: rotate(1800deg);
+    }
+
+    20% {background-color: brown;
+        top: 250px;
+        left: 350px;
+        transform: rotate(180deg);
+    }
+
+    40% {background-color: black;
+        top: 0px;
+        left: 600px;
+        transform: scale(2);
+    }
+
+    60% {background-color: blue;
+        top: 250px;
+        left: 900px;
+        transform: rotate(180deg);
+    }
+
+    80% {background-color: yellow;
+        top: 0px;
+        left: 1300px;
+        transform: rotate(0deg);
+    }
+
+    100% {background-color: deeppink;
+        top: 250px;
+        left: 1600px;
+        transform: rotate(180deg);
+    }
+
+
+}
+    </style>
+</head>
+<body>
+    
+<div id="B1"></div>
+<div id="B2"></div>
+
+</body>
+</html>
